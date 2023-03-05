@@ -24,3 +24,8 @@ button {
   width: 20vw;
   height: 10vh;
 }
+
+button:hover {
+  background-color: white;
+
+}
