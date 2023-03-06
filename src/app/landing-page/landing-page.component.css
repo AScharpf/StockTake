@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.form-container {
+.button-container {
   border-radius: 20px;
   height: 40vh;
   width: 40vw;
@@ -14,25 +14,6 @@
   flex-direction: column;
   background-color: rgb(49, 49, 159);
   justify-content: space-around;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  background-color: transparent;
-}
-
-label {
-  align-self: center;;
-}
-
-input {
-  background-color: white;
-
-  align-self: center;
-  margin: 20px;
-  width: 10vw;
-  height: 5vh;
 }
 
 .btn {
