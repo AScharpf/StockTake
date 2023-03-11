@@ -8,12 +8,13 @@
 .button-container {
   border-radius: 20px;
   height: 40vh;
-  width: 40vw;
+  width: 25vw;
   margin-top : 100px;
   display: flex;
   flex-direction: column;
-  background-color: rgb(49, 49, 159);
+  background-color: #666666;
   justify-content: space-around;
+  box-shadow: -1px -1px 5px white
 }
 
 .btn {
