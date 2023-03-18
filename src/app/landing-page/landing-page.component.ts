@@ -1,5 +1,7 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { trigger, transition, style, state, animate } from '@angular/animations';
+import { HttpClient, HttpHeaders } from '@angular/common/http';
+
 
 @Component({
   selector: 'app-landing-page',
@@ -20,12 +22,23 @@ import { trigger, transition, style, state, animate } from '@angular/animations'
 
 export class LandingPageComponent implements OnInit {
 state: any;
+user = { id : 1, name : 'Hello'};
 
-  constructor() { }
+  constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
   this.state='visible';
+  this.http.get('localhost:3000')
+  .subscribe(data => {
+    console.log(data);
+  });
   }
+
+
+
+
+
+
 
 
 

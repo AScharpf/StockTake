@@ -8,6 +8,7 @@ import { NewStockEntryComponent } from './new-stock-entry/new-stock-entry.compon
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { OneStatisticComponent } from './one-statistic/one-statistic.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { OneStatisticComponent } from './one-statistic/one-statistic.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
