@@ -9,6 +9,7 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { StatisticsComponent } from './statistics/statistics.component';
 import { OneStatisticComponent } from './one-statistic/one-statistic.component';
 import { HttpClientModule } from '@angular/common/http';
+import { StockPageComponent } from './stock-page/stock-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     NewStockEntryComponent,
     LandingPageComponent,
     StatisticsComponent,
-    OneStatisticComponent
+    OneStatisticComponent,
+    StockPageComponent
 
   ],
   imports: [

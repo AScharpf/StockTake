@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-new-stock-entry',
   templateUrl: './new-stock-entry.component.html',

@@ -28,10 +28,7 @@ user = { id : 1, name : 'Hello'};
 
   ngOnInit(): void {
   this.state='visible';
-  this.http.get('localhost:3000')
-  .subscribe(data => {
-    console.log(data);
-  });
+
   }
 
 
